@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  font-size: 24px;
+}
+.App{
+  width:900px;
+  padding: 0;
+  margin: 0 auto;
+}
+.item-li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  margin-top: .5rem;
+  color:#fff;
+  border: none;
+  border-radius: 15px;
+  min-height: 60px;
+}
+.list-ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.item-p{
+  max-width: 700px;
+}
+.item-button{
+  width: 35;
+  height: 35;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.done{
+  opacity: 0.2;
+}
+
+.addtask-form{
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addtask-input{
+  width: 750px;
+  height: 40px;
+  background-color: #333333;
+
+}
+
+.addtask-button{
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 30px;
+  height: 46px;
+  min-width: 120px;
+  border-radius: 15px;
+}
+
+
